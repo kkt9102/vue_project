@@ -1,0 +1,17 @@
+- vue init webpack project_name : webpack 빌드 도구와 Vue-loader를 이용하는 풀옵션으로서, 선택에 따라 linter, router, css 전처리, 테스팅 도구들을 사용할 수 있다.
+
+- vue init webpack-simple : webpack 빌드도구와 vue-loader를 이용하는 옵션으로서, 작은 애플리케이션을 구축하는 데 용이하다.
+
+- vue init browserify : browserify 와 vueify를 이용하는 풀옵션으로서, 선택에 따라 linter와 단위 테스팅 도구를 사용할 수 있다.
+
+- vue init browserify-simple : browserify와 vueify를 이용하는 간단한 옵션으로서, 작은 애플리케이션을 구축하는데 용이하다.
+
+- vue init pwa-webpack : 빌드 도구를 이용하는 PWA 기반의 애플리케이션을 만드는데 용이하다.
+
+- vue init simple : 하나의 HTML 파일 안에서 Vue 컴포넌트로 개발하기에 용이하다.
+
+- vue.js 프로젝트 실행 => npm run dev
+
+
+- 프로젝트 안의 파일 중 '.eslintignore' 안에 선언된 파일들은 '린터(Linter)'가 검사를 진행하지 않음.
+- 프로젝트를 새로 받았다면 해당 프로젝트 안에서 npm install 입력

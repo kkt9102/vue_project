@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- 개발버전, 도움되는 콘솔 경고를 포함. -->
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+<body>
+    <div id="app-2">
+        <span v-bind:title="message">
+            쉽게말해 앨리먼트 속성중 title과 같은 개념인데 이건 나중에 JavaScript로 출력메시지 변경도 가능한듯
+        </span>
+    </div>
+    <script>
+        var app2 = new Vue({
+            el: '#app-2',
+            data: {
+                message: '이 데이터는 ' + new Date() + '에 생성되었습니다.'
+            }
+        })
+
+        // 콘솔창에서 app2.message = 'title 메시지를 변경할 때' 라고 입력하면 출력되는 메시지가 변경된다.
+        
+    </script>
+</body>
+</html>
